@@ -1,6 +1,6 @@
 
     h1, h2 {
-      color: rgb(58, 121, 172);
+      color: navy;
     }
     
     .evenrow {
@@ -8,7 +8,7 @@
     }
     
     table, th, td {
-      border: 1px dashed rgb(98, 15, 15);
+      border: 2px dashed rgb(98, 15, 15);
     }
     
     h1 {
