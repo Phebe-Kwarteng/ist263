@@ -1,18 +1,18 @@
 
     h1, h2 {
-      color: rgb(1, 48, 86);
+      color: rgb(58, 121, 172);
     }
     
     .evenrow {
-      background-color: lightgrey;
+      background-color: grey;
     }
     
     table, th, td {
-      border: 1px dashed rgb(0, 0, 0);
+      border: 1px dashed rgb(98, 15, 15);
     }
     
     h1 {
-      font-size: large;
+      font-size: xx-large;
       font-family: serif;
     }
     
