@@ -1,0 +1,29 @@
+
+     h1, h2 {
+       color: rgb(1, 48, 86);
+     }
+
+
+    .evenrow {
+      background-color: lightgrey;
+    }
+
+    table, th, td 
+
+    {
+      border: 1px dashed rgb(128, 38, 92);
+     }
+
+
+     h1
+        {
+        font-size: large;
+        font-family: serif;
+        }
+
+
+    h2
+        {
+        font-size: medium;
+        font-family: sans-serif;
+        }
