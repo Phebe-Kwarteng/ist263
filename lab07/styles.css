@@ -11,7 +11,7 @@ nav a {
 }
 
 nav a:link {
-  color: #0267C1;
+  color: #084887;
 }
 
 nav a:hover {
@@ -24,4 +24,10 @@ body {
   background-color: #F2F3D9;
 }
 
+h1 {
+  color: #131200;
+}
 
+p {
+  color: #000000;
+}
