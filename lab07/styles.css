@@ -15,3 +15,10 @@ nav {
   padding: 10px;
   margin-bottom: 30px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: tan;
+}
+
