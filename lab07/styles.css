@@ -1,27 +1,27 @@
 
 nav {
-  background-color: rgb(222, 184, 135);
+  background-color: #2E3532;
   padding: 10px;
   margin-bottom: 30px;
 }
 
 nav a {
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-decoration: none;
 }
 
 nav a:link {
-  color: rgb(0, 0, 0);
+  color: #0267C1;
 }
 
 nav a:hover {
-  background-color: rgb(128, 128, 128);
+  background-color: #808080;
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: tan;
+  background-color: #E0E2DB;
 }
 
 
