@@ -1,16 +1,17 @@
 
 nav a {
-  background-color: rgb(255, 182, 193);
+  background-color: rgb(222, 184, 135);
 }
 
 nav a:hover {
   background-color: rgb(128, 128, 128);
 }
 
-nav a:visited {
-  color: purple;
+nav a:link {
+  color: rgb(0, 0, 0);
 }
 
-nav a:link {
-  color: rgb(255, 255, 255);
+nav {
+  padding: 10px;
+  margin-bottom: 30px;
 }
