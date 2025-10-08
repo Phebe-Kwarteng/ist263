@@ -1,19 +1,21 @@
 
 nav {
   background-color: rgb(222, 184, 135);
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
-nav a:hover {
-  background-color: rgb(128, 128, 128);
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 nav a:link {
   color: rgb(0, 0, 0);
 }
 
-nav {
-  padding: 10px;
-  margin-bottom: 30px;
+nav a:hover {
+  background-color: rgb(128, 128, 128);
 }
 
 body {
