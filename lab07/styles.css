@@ -1,3 +1,13 @@
-nav {
-  background-color: rgba(36, 173, 219, 0.493);
+
+nav a: background-color {
+  background-color: lightblue;
 }
+
+nav a:hover {
+  background-color: rgba(180, 239, 255, 0.493);
+}
+
+nav a:visited {
+  color: purple;
+}
+
