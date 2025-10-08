@@ -1,6 +1,6 @@
 
 nav a {
-  background-color: lightblue;
+  background-color: rgb(15, 41, 50);
 }
 
 nav a:hover {
@@ -11,3 +11,10 @@ nav a:visited {
   color: purple;
 }
 
+nav a:active {
+  color: rgb(227, 69, 69);
+}
+
+nav a:link {
+  color: black;
+}
