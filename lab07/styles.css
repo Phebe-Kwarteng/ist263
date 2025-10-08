@@ -1,13 +1,13 @@
 
 nav {
-  background-color: #2E3532;
+  background-color: #FF82A9;
   padding: 10px;
   margin-bottom: 30px;
 }
-
+ 
 nav a {
   color: #000000;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 nav a:link {
@@ -21,7 +21,7 @@ nav a:hover {
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: #E0E2DB;
+  background-color: #F2F3D9;
 }
 
 
