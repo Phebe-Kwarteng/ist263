@@ -31,3 +31,7 @@ h1 {
 p {
   color: #131200;
 }
+
+table, th, td {
+      border: 2px dashed #626262;
+    }
