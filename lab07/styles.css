@@ -4,7 +4,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(180, 239, 255, 0.493);
+  background-color: rgb(128, 128, 128);
 }
 
 nav a:visited {
