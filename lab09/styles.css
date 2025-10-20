@@ -1,0 +1,41 @@
+
+nav {
+  background-color: #FF82A9;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+ 
+nav a {
+  color: #000000;
+  text-decoration: none; 
+}
+
+nav a:link {
+  color: #084887;
+}
+
+nav a:hover {
+  background-color: #cecece;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #F2F3D9;
+}
+
+h1 {
+  color: #F18F01;
+}
+
+p {
+  color: #131200;
+}
+
+table, th, td {
+      border: 2px dashed #620f0f;
+    }
+
+link {
+  color: #084887;
+}
