@@ -139,3 +139,11 @@ a:link {
     border: none;
     border-radius: 8px; 
 }
+
+.skillstable table {
+    margin: 0 auto;
+}
+
+.skillsimage {
+    text-align: center;
+}
