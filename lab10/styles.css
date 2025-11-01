@@ -167,10 +167,11 @@ a:visited {
 }
 
 @media screen and (min-width: 801px) {
-  .navigation { display: block; }
+  .navigation { display: flex; }
   nav a,
   nav a:visited {
     display: inline-block;
     width: auto;
+    box-sizing: content-box;
   }
 }
