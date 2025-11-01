@@ -155,3 +155,22 @@ a:visited {
   max-width: 100%;
 }
 
+             
+@media screen and (max-width: 800px) {
+  .navigation { display: block; }
+  nav a,
+  nav a:visited {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .navigation { display: block; }
+  nav a,
+  nav a:visited {
+    display: inline-block;
+    width: auto;
+  }
+}
