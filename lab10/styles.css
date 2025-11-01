@@ -157,7 +157,7 @@ a:visited {
 
              
 @media screen and (max-width: 800px) {
-  .navigation { display: block; }
+  nav { display: block; }
   nav a,
   nav a:visited {
     display: block;
@@ -170,7 +170,7 @@ a:visited {
 }
 
 @media screen and (min-width: 801px) {
-  .navigation { display: flex; }
+  nav { display: flex; }
   nav a,
   nav a:visited {
     display: inline-block;
