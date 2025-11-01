@@ -147,14 +147,10 @@ a:visited {
 }
 
 
-.quote {float: right}
+.quote {float: right;}
 
 
 .banner {
-  display: block;
   max-width: 100%;
-  width: 100%;
-  height: auto;
 }
 
-             
