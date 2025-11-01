@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> | <a href="skills.html">Skills</a> | <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        
+        <!-- FIRST ROW: Contact Info (Flex container for side-by-side layout) -->
+            
+            
+            <h1> Contact</h1>
+
+            <div class="contact-row">
+            <p>
+                <!-- EMAIL ADDRESS-->
+                <a href="mailto:pkwarten@syr.edu">Phebe Kwarteng Email</a>
+            </p>
+
+        
+          
+            <!-- LINKEDIN -->
+
+            <p>
+
+
+                <img src="../images/linkedin-resized.png" alt="LinkedIn Icon">
+
+                <a href="https://www.linkedin.com/in/phebe-kwarteng/">Phebe Kwarteng LinkedIn Profile </a>
+
+
+            </p>
+    
+        </div>
+
+    </div>
+
+    <div class="flex-row bottom-row">
+            
+            <div class="left-form"> <!-- FORM -->
+             <h1> Please Answer for contact </h1>
+            <form action="https://formspree.io/f/xkgvlkkz" method="POST">
+
+                <label for="fname">Full Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <br>
+
+                <label for="email">Email:</label><br>
+
+                <input type="email" id="email" name="email"><br>
+                <br>
+
+                <!-- CHECKBOXES -->
+                <h3> Services needed:</h3>
+                <input type="checkbox" id="logo" name="services" value="Logo">
+                <label for="logo">I would like a logo</label>
+
+                <input type="checkbox" id="poster" name="services" value="Poster">
+                <label for="poster">I would like a poster</label>
+
+                <input type="checkbox" id="wire" name="services" value="Wireframe">
+                <label for="wire">I would like a wireframe</label>
+                <br><br>
+
+
+                <label for="comments"> Comments: </label> <br>
+
+                <textarea id="comments" name="comments" rows="4" cols="50">
+            </textarea> <br>
+                <br>
+
+                <!-- SUBMIT BUTTON -->
+                <input type="submit" value="Send">
+                <br>
+
+            </form>
+
+        </div>
+
+        <div class="map"><!-- MAP EMBEDDING -->
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.835434509823!2d-73.9967056845932!3d40.73059997932844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18b5e7b7%3A0x6f6e8e4a5f5e4c0!2sNew%20York%20University!5e0!3m2!1sen!2sus!4v1696112345678!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+
+</body>
+</html>
