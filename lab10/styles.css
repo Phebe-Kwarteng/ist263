@@ -145,3 +145,11 @@ a:visited {
 .skillsimage {
   text-align: center;
 }
+
+
+.quote {float: right}
+
+
+.banner {
+  max-width: 100%;
+}
