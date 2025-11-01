@@ -164,6 +164,9 @@ a:visited {
     width: 100%;
     box-sizing: border-box;
   }
+  nav span {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 801px) {
@@ -173,5 +176,8 @@ a:visited {
     display: inline-block;
     width: auto;
     box-sizing: content-box;
+  }
+  nav span {
+    display: inline;
   }
 }
