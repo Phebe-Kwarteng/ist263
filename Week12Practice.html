@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Javascript pt.2 Week 12</title>
+     <script> 
+        function bigly() {
+            document.getElementById("p1").innerHTML = "New Content";
+        }
+
+
+        function WrongAnswer() {
+           document.getElementById("wrong").innerHTML = '<span style="color:red;">True is the wrong answer.</span>';
+        }
+
+        function RightAnswer() {
+             document.getElementById("right").innerHTML = '<span style="color:green;">Correct!</span>';
+            }
+
+
+        function blush() {
+            document.getElementById("pink").style.color = "#FF7782";
+        }
+
+
+        function changeimage() {
+            document.getElementById("myImage").setAttribute("src", "images/linkedin-resized.png");
+        }
+
+
+        
+
+    </script>
+
+</head>
+<body>
+
+    <p id="p1" onclick="bigly();">Content goes Here</p>
+    <p id="p2">Paragraph 2!</p>
+
+    <br>
+    <br>
+
+    <h1> My JavaScript Quiz</h1>
+    <p>Java and JavScript are the same thing.</p>
+    <p onclick="WrongAnswer();" id="wrong">True</p>
+    <p onclick="RightAnswer();" id="right">False</p>
+
+    <br> 
+
+    
+    <h1 id="pink" onmouseover="blush();"> Hover over to turn pink!</h1>
+
+    <br>
+
+    <img src="images/linkedin.png" id="myImage" onclick="changeimage();" alt="LinkedIn logo">
+
+
+</body>
+</html>
+
+
