@@ -1,0 +1,36 @@
+
+nav {
+  background-color: #ffa9d4;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a,
+nav a:visited {
+  color: #084887;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ff85c2;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #F18F01;
+}
+
+p {
+  color: #131200;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555555;
+}
