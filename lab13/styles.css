@@ -171,7 +171,7 @@ table, th, td {
 }
 
 .left-form input[type="submit"] {
-    background-color: #F18F01;
+    background-color: #222222;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -182,7 +182,7 @@ table, th, td {
 }
 
 .left-form input[type="submit"]:hover {
-    background-color: #d17a00;
+    background-color: #222222;
 }
 
 .map {
