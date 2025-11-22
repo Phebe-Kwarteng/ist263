@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <nav aria-label="Primary">
+            <a href="index.html">Home</a> <span> | </span> <a href="skills.html">Skills</a> <span> | </span> <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Contact Phebe Kwarteng</h1>
+
+            <section class="main-content"> 
+            <div class="contact-row">
+            <p>
+                <!-- EMAIL ADDRESS-->
+                <a href="mailto:pkwarten@syr.edu">Phebe Kwarteng Email</a>
+            </p>
+          
+            <!-- LINKEDIN -->
+
+            <p>
+
+                <img src="../images/linkedin-resized.png" alt="LinkedIn logo">
+
+                <a href="https://www.linkedin.com/in/phebe-kwarteng/">Phebe Kwarteng LinkedIn Profile </a>
+
+            </p>
+    
+        </div>
+            </section>
+
+    <section class="flex-row bottom-row">
+            
+            <div class="left-form"> <!-- FORM -->
+             <h2> Please Answer for contact </h2>
+            <form action="https://formspree.io/f/xkgvlkkz" method="POST">
+
+                <label for="fname">Full Name:</label>
+                <input type="text" id="fname" name="fname" required><br>
+
+                 <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+
+                <!-- CHECKBOXES -->
+                <h3> Services needed:</h3>
+                <input type="checkbox" id="logo" name="services" value="Logo">
+                <label for="logo">I would like a logo</label>
+
+                <input type="checkbox" id="poster" name="services" value="Poster">
+                <label for="poster">I would like a poster</label>
+
+                <input type="checkbox" id="wire" name="services" value="Wireframe">
+                <label for="wire">I would like a wireframe</label>
+                <br><br>
+
+
+                <label for="comments"> Comments: </label> <br>
+
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea> <br>
+                <br>
+
+                <!-- SUBMIT BUTTON -->
+                <input type="submit" value="Send">
+                <br>
+
+            </form>
+
+        </div>
+
+        <section class="map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.835434509823!2d-73.9967056845932!3d40.73059997932844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18b5e7b7%3A0x6f6e8e4a5f5e4c0!2sNew%20York%20University!5e0!3m2!1sen!2sus!4v1696112345678!5m2!1sen!2sus"
+                title="Map showing Phebe Kwarteng's general location"
+                    width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </section>
+    </section>
+    </main>
+</body>
+</html>
