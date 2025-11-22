@@ -52,11 +52,16 @@ nav a, nav a:visited, a, a:visited {
 
 .skip-link {
   position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+    top: -40px;
+    left: 0;
+    background: #000000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    text-decoration: none;
+    transition: top 0.3s;
+    font-size: 1rem;
+    display: block; 
 }
 
 .skip-link:focus {
