@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  color: #F18F01;
+  color: #2b0000;
 }
 
 p, li {
@@ -19,7 +19,7 @@ p, li {
 
 /* --- Navigation Styling --- */
 header nav {
-  background-color: #FF82A9;
+  background-color: #dddddd;
   padding: 10px;
   margin-bottom: 30px;
   gap: 15px;
